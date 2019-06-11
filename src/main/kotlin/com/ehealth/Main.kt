@@ -24,11 +24,11 @@ val CIDADES_POR_POPULACAO = CIDADES.sortedBy { it.populacao }
 val TOTAL_POPULACAO = CIDADES.sumBy { it.populacao }
 val TOTAL_CASOS_DENGUE = CIDADES.sumBy { it.qtdCasosDengue }
 
-val QTD_AMOSTRA_POPULACAO = 1000000
+val QTD_AMOSTRA_POPULACAO = 100000
 
 // Estamos considerando que uma pessoa encontra 1000 pessoas da mesma cidade, e 100 pessoas de cidade distinta
-val PROBABILIDADE_ENCONTRO_MESMA_CIDADE = 0.001       // 1000 / 1.000.000
-val PROBABILIDADE_ENCONTRO_CIDADES_DISTINTAS = 0.0001 // 100  / 1.000.000
+val PROBABILIDADE_ENCONTRO_MESMA_CIDADE = 0.001       // 100 / 100.000
+val PROBABILIDADE_ENCONTRO_CIDADES_DISTINTAS = 0.0001 // 10  / 100.000
 
 fun main(args : Array<String>) {
     println("Iremos  criar $QTD_AMOSTRA_POPULACAO pessoas")
@@ -37,7 +37,8 @@ fun main(args : Array<String>) {
     // gerando população de pessoas
     for (i in 1..QTD_AMOSTRA_POPULACAO) {
         val cidade = sorteiaCidade()
-        pessoas.add(Pessoa(i, cidade, sorteiaDengue(cidade)))
+        val dengue = sorteiaDengue(cidade)
+        pessoas.add(Pessoa(i, cidade, dengue, calculaProbabilidadeDengue(cidade, dengue)))
     }
 
     // relatorio com quantidade de pessoas com dengue
@@ -55,7 +56,8 @@ fun main(args : Array<String>) {
             if (p1.id < p2.id) {
                 // p1 pode ter dengue ou não. P2 tem dengue
                 if (sorteiaEncontro(p1.cidade, p2.cidade)) {
-                    encontrosAlvo.add(EncontroDengue(p1.id, p2.id))
+		    val res = CIDADES.filter {cidade -> cidade.nome == p1.cidade.nome}
+                    encontrosAlvo.add(EncontroDengue(p1.id, p2.id, res.get(0).probDengue))
                 }
             }
         }
@@ -86,6 +88,14 @@ fun sorteiaCidade(): Cidade {
 fun sorteiaDengue(cidade: Cidade): Boolean {
     val randomNumber = ThreadLocalRandom.current().nextDouble(0.0, 1.0)
     return randomNumber <= cidade.probDengue
+}
+
+fun calculaProbabilidadeDengue(cidade: Cidade, dengue: Boolean): Double {
+    if (dengue) {
+	return 1.0
+    } else {
+	return cidade.probDengue
+    }
 }
 
 fun sorteiaEncontro(cidade1: Cidade, cidade2: Cidade): Boolean {
@@ -121,8 +131,9 @@ fun printaRelatorioCasosDengue(pessoas: List<Pessoa>) {
 fun escreveArquivoArestas(encontrosAlvo: List<EncontroDengue>) {
     println("Escrevendo arestas: ${encontrosAlvo.size}")
     val writer = File("edges.csv").printWriter()
+    writer.write("SOURCE,TARGET,WEIGHT\n")
     for (encontro in encontrosAlvo) {
-        writer.write("${encontro.pessoa1},${encontro.pessoa2}\n")
+        writer.write("${encontro.pessoa2},${encontro.pessoa1},${encontro.weight}\n")
     }
     writer.close()
 }
@@ -130,15 +141,17 @@ fun escreveArquivoArestas(encontrosAlvo: List<EncontroDengue>) {
 fun escreveArquivoNos(pessoas: List<Pessoa>) {
     println("Escrevendo nodes: ${pessoas.size}")
     val writer = File("nodes.csv").printWriter()
+    writer.write("ID,CIDADE,DENGUE,WEIGHT\n")
     for (pessoa in pessoas) {
-        writer.write("${pessoa.id},${pessoa.cidade.nome}, ${pessoa.dengueNosUltimos12Meses}\n")
+        writer.write("${pessoa.id},${pessoa.cidade.nome}, ${pessoa.dengueNosUltimos12Meses}, ${pessoa.probDengue}\n")
     }
     writer.close()
 }
 
 data class Pessoa(val id: Int,
                   val cidade: Cidade,
-                  val dengueNosUltimos12Meses: Boolean)
+                  val dengueNosUltimos12Meses: Boolean,
+		  val probDengue: Double)
 
 data class Cidade(val nome: String,
                   val populacao: Int,
@@ -146,4 +159,5 @@ data class Cidade(val nome: String,
                   val probDengue: Double = qtdCasosDengue.toDouble() / populacao)
 
 class EncontroDengue(val pessoa1: Int,
-                     val pessoa2: Int)
+                     val pessoa2: Int,
+		     val weight: Double)
