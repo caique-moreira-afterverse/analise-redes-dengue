@@ -1,0 +1,241 @@
+ID,LABEL,TIPO, REGIAO, TOTALCASOS
+350010,Adamantina, CIDADE, Marília, 324
+350020,Adolfo, CIDADE, São José do Rio Preto, 85
+350030,Aguaí, CIDADE, São João da Boa Vista, 300
+350070,Agudos, CIDADE, Bauru, 1329
+350130,Álvares Machado, CIDADE, Presidente Prudente, 78
+350160,Americana, CIDADE, Campinas, 1526
+350170,Américo Brasiliense, CIDADE, Araraquara, 1225
+350210,Andradina, CIDADE, Araçatuba, 3179
+350280,Araçatuba, CIDADE, Araçatuba, 1357
+350300,Aramina, CIDADE, Franca, 125
+350320,Araraquara, CIDADE, Araraquara, 9967
+350330,Araras, CIDADE, Piracicaba, 168
+350340,Arealva, CIDADE, Bauru, 44
+350390,Arujá, CIDADE, São Paulo, 51
+350400,Assis, CIDADE, Marília, 514
+350410,Atibaia, CIDADE, Campinas, 88
+350420,Auriflama, CIDADE, Araçatuba, 234
+350430,Avaí, CIDADE, Bauru, 90
+350440,Avanhandava, CIDADE, Araçatuba, 105
+350460,Bady Bassitt, CIDADE, São José do Rio Preto, 268
+350480,Bálsamo, CIDADE, São José do Rio Preto, 282
+350510,Barbosa, CIDADE, Araçatuba, 36
+350520,Bariri, CIDADE, Bauru, 30
+350550,Barretos, CIDADE, Barretos, 4166
+350590,Batatais, CIDADE, Riberão Preto, 333
+350600,Bauru, CIDADE, Bauru, 17966
+350610,Bebedouro, CIDADE, Barretos, 272
+350630,Bernardino de Campos, CIDADE, Marília, 60
+350640,Bilac, CIDADE, Araçatuba, 656
+350650,Birigui, CIDADE, Araçatuba, 3430
+350670,Boa Esperança do Sul, CIDADE, Araraquara, 207
+350700,Boituva, CIDADE, Sorocaba, 136
+350740,Borborema, CIDADE, Araraquara, 289
+350780,Brodósqui, CIDADE, Riberão Preto, 842
+350790,Brotas, CIDADE, Bauru, 88
+350820,Buritizal, CIDADE, Franca, 141
+350850,Caçapava, CIDADE, Taubaté, 126
+350950,Campinas, CIDADE, Campinas, 11312
+351040,Capivari, CIDADE, Piracicaba, 84
+351050,Caraguatatuba, CIDADE, Taubaté, 756
+351060,Carapicuíba, CIDADE, São Paulo, 168
+351070,Cardoso, CIDADE, São José do Rio Preto, 293
+351080,Casa Branca, CIDADE, São João da Boa Vista, 110
+351100,Castilho, CIDADE, Araçatuba, 865
+351110,Catanduva, CIDADE, São José do Rio Preto, 694
+351120,Catiguá, CIDADE, São José do Rio Preto, 213
+351130,Cedral, CIDADE, São José do Rio Preto, 164
+351290,Cosmorama, CIDADE, São José do Rio Preto, 80
+351340,Cruzeiro, CIDADE, Taubaté, 29
+351400,Dobrada, CIDADE, Araraquara, 231
+351440,Dracena, CIDADE, Presidente Prudente, 369
+351450,Duartina, CIDADE, Bauru, 153
+351495,Embaúba, CIDADE, São José do Rio Preto, 59
+351515,Engenheiro Coelho, CIDADE, Piracicaba, 132
+351520,Estrela d'Oeste, CIDADE, São José do Rio Preto, 93
+351540,Fartura, CIDADE, Bauru, 39
+351550,Fernandópolis, CIDADE, São José do Rio Preto, 2703
+351590,Floreal, CIDADE, São José do Rio Preto, 24
+351600,Flórida Paulista, CIDADE, Marília, 161
+351610,Florínia, CIDADE, Marília, 172
+351620,Franca, CIDADE, Franca, 294
+351670,Garça, CIDADE, Marília, 73
+351685,Gavião Peixoto, CIDADE, Araraquara, 239
+351700,Getulina, CIDADE, Bauru, 62
+351720,Guaiçara, CIDADE, Bauru, 260
+351740,Guaíra, CIDADE, Barretos, 1131
+351750,Guapiaçu, CIDADE, São José do Rio Preto, 210
+351770,Guará, CIDADE, Franca, 314
+351780,Guaraçaí, CIDADE, Araçatuba, 348
+351790,Guaraci, CIDADE, Barretos, 135
+351820,Guararapes, CIDADE, Araçatuba, 732
+351880,Guarulhos, CIDADE, São Paulo, 1477
+351900,Herculândia, CIDADE, Marília, 120
+351907,Hortolândia, CIDADE, Campinas, 178
+351910,Iacanga, CIDADE, Bauru, 97
+351930,Ibaté, CIDADE, Araraquara, 177
+351940,Ibirá, CIDADE, São José do Rio Preto, 101
+351950,Ibirarema, CIDADE, Marília, 83
+351980,Icém, CIDADE, São José do Rio Preto, 68
+352010,Igarapava, CIDADE, Franca, 376
+352044,Ilha Solteira, CIDADE, Araçatuba, 464
+352050,Indaiatuba, CIDADE, Campinas, 34
+352115,Ipiguá, CIDADE, São José do Rio Preto, 190
+352130,Ipuã, CIDADE, Franca, 852
+352140,Iracemápolis, CIDADE, Piracicaba, 57
+352210,Itanhaém, CIDADE, Baixada Santista, 79
+352260,Itapira, CIDADE, São João da Boa Vista, 48
+352270,Itápolis, CIDADE, Araraquara, 241
+352290,Itapuí, CIDADE, Bauru, 170
+352300,Itapura, CIDADE, Araçatuba, 146
+352340,Itatiba, CIDADE, Campinas, 43
+352350,Itatinga, CIDADE, Bauru, 54
+352370,Itirapuã, CIDADE, Franca, 44
+352410,Ituverava, CIDADE, Franca, 1330
+352420,Jaborandi, CIDADE, Barretos, 80
+352430,Jaboticabal, CIDADE, Riberão Preto, 92
+352450,Jaci, CIDADE, São José do Rio Preto, 129
+352480,Jales, CIDADE, São José do Rio Preto, 1108
+352530,Jaú, CIDADE, Bauru, 833
+352570,José Bonifácio, CIDADE, São José do Rio Preto, 617
+352590,Jundiaí, CIDADE, Campinas, 1224
+352670,Leme, CIDADE, Piracicaba, 392
+352680,Lençóis Paulista, CIDADE, Bauru, 162
+352690,Limeira, CIDADE, Piracicaba, 334
+352710,Lins, CIDADE, Bauru, 281
+352720,Lorena, CIDADE, Taubaté, 84
+352740,Lucélia, CIDADE, Marília, 56
+352810,Macaubal, CIDADE, São José do Rio Preto, 322
+352900,Marília, CIDADE, Marília, 430
+352930,Matão, CIDADE, Araraquara, 657
+352940,Mauá, CIDADE, São Paulo, 121
+352950,Mendonça, CIDADE, São José do Rio Preto, 180
+352980,Mineiros do Tietê, CIDADE, Bauru, 36
+353010,Mirandópolis, CIDADE, Araçatuba, 1364
+353020,Mirante do Paranapanema, CIDADE, Presidente Prudente, 59
+353030,Mirassol, CIDADE, São José do Rio Preto, 379
+353040,Mirassolândia, CIDADE, São José do Rio Preto, 168
+353050,Mococa, CIDADE, São João da Boa Vista, 48
+353070,Moji-Guaçu, CIDADE, São João da Boa Vista, 710
+353080,Moji-Mirim, CIDADE, São João da Boa Vista, 513
+353130,Monte Alto, CIDADE, Riberão Preto, 102
+353140,Monte Aprazível, CIDADE, São José do Rio Preto, 573
+353150,Monte Azul Paulista, CIDADE, Barretos, 221
+353180,Monte Mor, CIDADE, Campinas, 103
+353190,Morro Agudo, CIDADE, Franca, 447
+353250,Neves Paulista, CIDADE, São José do Rio Preto, 457
+353260,Nhandeara, CIDADE, São José do Rio Preto, 62
+353280,Nova Aliança, CIDADE, São José do Rio Preto, 399
+353290,Nova Europa, CIDADE, Araraquara, 93
+353300,Nova Granada, CIDADE, São José do Rio Preto, 141
+353320,Nova Independência, CIDADE, Araçatuba, 100
+353340,Nova Odessa, CIDADE, Campinas, 123
+353350,Novo Horizonte, CIDADE, São José do Rio Preto, 395
+353360,Nuporanga, CIDADE, Franca, 162
+353390,Olímpia, CIDADE, Barretos, 1587
+353400,Onda Verde, CIDADE, São José do Rio Preto, 95
+353420,Orindiúva, CIDADE, São José do Rio Preto, 334
+353430,Orlândia, CIDADE, Franca, 604
+353440,Osasco, CIDADE, São Paulo, 85
+353460,Osvaldo Cruz, CIDADE, Marília, 125
+353470,Ourinhos, CIDADE, Marília, 63
+353490,Pacaembu, CIDADE, Marília, 131
+353500,Palestina, CIDADE, São José do Rio Preto, 788
+353540,Panorama, CIDADE, Presidente Prudente, 288
+353550,Paraguaçu Paulista, CIDADE, Marília, 1359
+353640,Paulicéia, CIDADE, Presidente Prudente, 41
+353650,Paulínia, CIDADE, Campinas, 357
+353660,Paulo de Faria, CIDADE, São José do Rio Preto, 457
+353670,Pederneiras, CIDADE, Bauru, 406
+353710,Pedreira, CIDADE, Campinas, 664
+353730,Penápolis, CIDADE, Araçatuba, 262
+353740,Pereira Barreto, CIDADE, Araçatuba, 611
+353870,Piracicaba, CIDADE, Piracicaba, 755
+353890,Pirajuí, CIDADE, Bauru, 117
+353920,Pirapozinho, CIDADE, Presidente Prudente, 165
+353930,Pirassununga, CIDADE, Piracicaba, 100
+353940,Piratininga, CIDADE, Bauru, 449
+353960,Planalto, CIDADE, São José do Rio Preto, 43
+353990,Poloni, CIDADE, São José do Rio Preto, 101
+354000,Pompéia, CIDADE, Marília, 207
+354030,Pontes Gestal, CIDADE, São José do Rio Preto, 76
+354070,Porto Ferreira, CIDADE, Araraquara, 86
+354080,Potirendaba, CIDADE, São José do Rio Preto, 37
+354085,Pracinha, CIDADE, Marília, 16
+354090,Pradópolis, CIDADE, Riberão Preto, 114
+354130,Presidente Epitácio, CIDADE, Presidente Prudente, 218
+354140,Presidente Prudente, CIDADE, Presidente Prudente, 719
+354150,Presidente Venceslau, CIDADE, Presidente Prudente, 513
+354160,Promissão, CIDADE, Bauru, 105
+354170,Quatá, CIDADE, Presidente Prudente, 156
+354220,Rancharia, CIDADE, Presidente Prudente, 58
+354250,Reginópolis, CIDADE, Bauru, 59
+354310,Ribeirão Corrente, CIDADE, Franca, 28
+354340,Ribeirão Preto, CIDADE, Riberão Preto, 3082
+354370,Rincão, CIDADE, Araraquara, 354
+354390,Rio Claro, CIDADE, Piracicaba, 202
+354420,Riolândia, CIDADE, São José do Rio Preto, 230
+354425,Rosana, CIDADE, Presidente Prudente, 308
+354480,Sales, CIDADE, São José do Rio Preto, 105
+354520,Salto, CIDADE, Sorocaba, 40
+354540,Salto Grande, CIDADE, Marília, 36
+354580,Santa Bárbara d'Oeste, CIDADE, Campinas, 845
+354640,Santa Cruz do Rio Pardo, CIDADE, Marília, 160
+354650,Santa Ernestina, CIDADE, Araraquara, 40
+354660,Santa Fé do Sul, CIDADE, São José do Rio Preto, 625
+354690,Santa Lúcia, CIDADE, Araraquara, 98
+354890,São Carlos, CIDADE, Araraquara, 376
+354910,São João da Boa Vista, CIDADE, São João da Boa Vista, 47
+354940,São Joaquim da Barra, CIDADE, Franca, 4499
+354950,São José da Bela Vista, CIDADE, Franca, 109
+354980,São José do Rio Preto, CIDADE, São José do Rio Preto, 13356
+354990,São José dos Campos, CIDADE, Taubaté, 176
+355030,São Paulo, CIDADE, São Paulo, 6533
+355040,São Pedro, CIDADE, Piracicaba, 48
+355070,São Sebastião, CIDADE, Taubaté, 268
+355140,Serra Azul, CIDADE, Riberão Preto, 182
+355150,Serrana, CIDADE, Riberão Preto, 262
+355220,Sorocaba, CIDADE, Sorocaba, 447
+355230,Sud Mennucci, CIDADE, Araçatuba, 318
+355240,Sumaré, CIDADE, Campinas, 667
+355250,Suzano, CIDADE, São Paulo, 124
+355255,Suzanápolis, CIDADE, Araçatuba, 267
+355260,Tabapuã, CIDADE, São José do Rio Preto, 271
+355270,Tabatinga, CIDADE, Araraquara, 146
+355320,Taiúva, CIDADE, Barretos, 44
+355340,Tanabi, CIDADE, São José do Rio Preto, 245
+355370,Taquaritinga, CIDADE, Araraquara, 1365
+355395,Tarumã, CIDADE, Marília, 79
+355430,Teodoro Sampaio, CIDADE, Presidente Prudente, 45
+355440,Terra Roxa, CIDADE, Barretos, 157
+355500,Tupã, CIDADE, Marília, 1315
+355510,Tupi Paulista, CIDADE, Presidente Prudente, 219
+355520,Turiúba, CIDADE, Araçatuba, 44
+355535,Ubarana, CIDADE, São José do Rio Preto, 314
+355540,Ubatuba, CIDADE, Taubaté, 255
+355560,Uchoa, CIDADE, São José do Rio Preto, 391
+355570,União Paulista, CIDADE, São José do Rio Preto, 109
+355610,Valentim Gentil, CIDADE, São José do Rio Preto, 104
+355640,Vargem Grande do Sul, CIDADE, São João da Boa Vista, 203
+355650,Várzea Paulista, CIDADE, Campinas, 143
+355700,Votorantim, CIDADE, Sorocaba, 103
+355710,Votuporanga, CIDADE, São José do Rio Preto, 1123
+355720,Chavantes, CIDADE, Marília, 32
+1,SE01, SEMANA, , 
+2,SE02, SEMANA, , 
+3,SE03, SEMANA, , 
+4,SE04, SEMANA, , 
+5,SE05, SEMANA, , 
+6,SE06, SEMANA, , 
+7,SE07, SEMANA, , 
+8,SE08, SEMANA, , 
+9,SE09, SEMANA, , 
+10,SE10, SEMANA, , 
+11,SE11, SEMANA, , 
+12,SE12, SEMANA, , 
+13,SE13, SEMANA, , 
+14,SE14, SEMANA, , 
+15,SE15, SEMANA, , 
+16,SE16, SEMANA, , 
+17,SE17, SEMANA, , 
